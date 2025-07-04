@@ -1,1 +1,24 @@
-**/node_modules
+# Залежності
+node_modules/
+
+# Збірка TypeScript
+dist/
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Конфігурації середовищ
+.env
+.env.local
+
+# Кеші
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.iml
