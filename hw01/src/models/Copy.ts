@@ -1,15 +1,15 @@
-import { AbstractBook } from "./AbstractBook";
+import { Book } from "./Book";
 
 export class Copy {
-  private book: AbstractBook;
+  private book: Book;
   private isAvailable: boolean;
 
-  constructor(book: AbstractBook) {
+  constructor(book: Book) {
     this.book = book;
     this.isAvailable = true;
   }
 
-  getBook(): AbstractBook {
+  getBook(): Book {
     return this.book;
   }
 
